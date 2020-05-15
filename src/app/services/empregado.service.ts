@@ -33,7 +33,7 @@ export class EmpregadoService {
 
   updateEmployee(id: number, value: any): Observable<Object> {
     return this.httpClient.put(`${this.baseUrl}/${id}`, value);
-  } 
+  }  
 
 }
 
